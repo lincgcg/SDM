@@ -27,7 +27,7 @@ class remote_train():
         self.num_folds = args.num_folds
         #self.binary_map_dir = os.path.join(settings.DATA_DIR, 'VOCdevkit2012/VOC2012/', 'Binary_map_aug/train') #val
         # self.data_list_dir = os.path.join('data_list/train')
-        self.data_list_dir = '/disk2/caoqinglong/remote_sensing/iSAID_patches/train/train_list'
+        self.data_list_dir = '/data0/mxy/linchungang/SDM/data_list/train'
         self.img_dir = os.path.join(settings.DATA_DIR, 'remote_sensing/iSAID_patches/train/', 'images/')
         self.mask_dir = os.path.join(settings.DATA_DIR, 'remote_sensing/iSAID_patches/train/', 'semantic_png/')
         #self.binary_mask_dir = os.path.join(settings.DATA_DIR, 'VOCdevkit2012/VOC2012/', 'Binary_map_aug/train/')
