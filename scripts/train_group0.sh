@@ -10,4 +10,5 @@ CUDA_VISIBLE_DEVICES=$GPU_ID python train.py \
     --num_folds=3 \
     --arch=FPMMs\
     --lr=1e-3 \
-    --dataset='remote'
+    --dataset='remote' \
+    --batch_size 4
