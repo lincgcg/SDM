@@ -2,8 +2,8 @@
 
 cd ..
 
-GPU_ID=0
-GPOUP_ID=0
+GPU_ID=4,5,6,7
+GPOUP_ID=0,1,2,3
 
 CUDA_VISIBLE_DEVICES=$GPU_ID python train.py \
     --group=${GPOUP_ID} \
