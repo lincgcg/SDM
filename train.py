@@ -21,8 +21,8 @@ DATASET = 'voc'
 SNAPSHOT_DIR = settings.SNAPSHOT_DIR
 
 
-#GPU_ID = '6'
-#os.environ["CUDA_VISIBLE_DEVICES"] = GPU_ID
+GPU_ID = '4,5,6,7'
+os.environ["CUDA_VISIBLE_DEVICES"] = GPU_ID
 
 def get_arguments():
     parser = argparse.ArgumentParser(description='OneShot')
